@@ -26,6 +26,7 @@
       {
         "max": 500
       }
+      
     ],
     "complexity": [
       "error",
@@ -52,7 +53,7 @@
     // Enforce PascalCase for React component names
     "react/jsx-pascal-case": ["error", { "allowAllCaps": true }],
     // Enforce .jsx or .tsx file extensions for JSX files
-    "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }]
+    "react/jsx-filename-extension": ["error",{"semi":false} ,{ "extensions": [".jsx", ".tsx"] }]
   },
   "settings": {
     "react": {
