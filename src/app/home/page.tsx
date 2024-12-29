@@ -1,10 +1,9 @@
+import HomeView from '@/views/HomeView';
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <HomeView/>
   )
 }
 
